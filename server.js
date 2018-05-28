@@ -20,7 +20,7 @@ app.get('/contacts', (req, res) => {
 
 
 /// TODO: Develop POST /contacts
-app.post('/conacts',(req,res)=>{
+app.post('/contacts',(req,res)=>{
     let newContacts = req.body
     contacts.push(newContacts)
     res.status(201).send()
